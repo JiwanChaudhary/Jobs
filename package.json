@@ -1,11 +1,10 @@
 {
-  "name": "jobs-api",
+  "name": "jobs-api-jiwan",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +24,8 @@
     "swagger-ui-express": "^4.6.3",
     "xss-clean": "^0.1.4",
     "yamljs": "^0.3.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }

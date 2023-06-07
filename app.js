@@ -48,7 +48,7 @@ app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
 // PORT
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // server
 const start = async () => {
