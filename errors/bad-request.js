@@ -7,5 +7,6 @@ class BadRequestError extends CustomeAPIError {
     this.statusCode = StatusCodes.BAD_REQUEST;
   }
 }
+// console.log(typeof BadRequestError);
 
 module.exports = BadRequestError;

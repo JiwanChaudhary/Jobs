@@ -3,5 +3,6 @@ class CustomAPIError extends Error {
     super(message);
   }
 }
+// console.log(typeof CustomAPIError);
 
 module.exports = CustomAPIError;
